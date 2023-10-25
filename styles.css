@@ -8,7 +8,7 @@ html{
 } */
 ul > li{
 	padding:10px;
-	background-color:white;
+	background-color:rgb(255,255,255);
 	width:50%;
 }
 ul > li:nth-child(even){
@@ -19,7 +19,7 @@ ul > li:nth-child(3){
 }
 p:first-child{
 	background-color:black;
-	color:white;
+	color:rgb(255,255,255);
 }
 p:nth-child(3){
 	color:red;
