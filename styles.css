@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(135, 206, 235);
+	margin:0%;
+}
+/* .p1{
+	background-color:black;
+	color:white;
+} */
+ul > li{
+	padding:10px;
+	background-color:white;
+	width:50%;
+}
+ul > li:nth-child(even){
+	background-color:gray;
+}
+ul > li:nth-child(3){
+	background-color:pink;
+}
+p:first-child{
+	background-color:black;
+	color:white;
+}
+p:nth-child(3){
+	color:red;
+}
+ul > li:nth-child(even){
+	font-size:22px;
+}
