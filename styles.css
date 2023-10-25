@@ -10,6 +10,7 @@ html{
 	--white:rgb(255,255,255);
 	--gray:gray;
 	--pink:pink;
+	--red:rgb(255,0,0);
 }
 ul > li{
 	padding:10px;
@@ -27,7 +28,7 @@ p:first-child{
 	color:rgb(255,255,255);
 }
 p:nth-child(3){
-	color:red;
+	color:var(--red);
 }
 ul > li:nth-child(even){
 	font-size:22px;
