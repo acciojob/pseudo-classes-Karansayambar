@@ -24,7 +24,7 @@ p:first-child{
 	background-color:var(--black);
 	color:rgb(255,255,255);
 }
-p:last-child{
+p:nth-last-child(2){
 	color: var(--red);
 }
 ul > li:nth-child(even){
